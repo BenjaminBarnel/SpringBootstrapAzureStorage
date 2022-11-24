@@ -1,0 +1,10 @@
+server:
+  port : 8099
+spring:
+  cloud:
+    azure:
+      storage:
+        blob:
+          account-name: benjtest
+          account-key: ptc
+          endpoint: https://benjtest.blob.core.windows.net/
